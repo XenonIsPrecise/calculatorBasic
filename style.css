@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+#screen {
+    height: 80px;
+    width: auto;
+    border: 1px solid white;
+    margin: 4px;
+    font-size: 75px;
+    padding: 4px;
+    color: white;
+    overflow: scroll;
+}
+
+#calc {
+    border-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 365px;
+
+    padding: 4px;
+    display: inline-block;
+}
+
+.action {
+    height: 80px;
+    width: 80px;
+    margin: 4px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+button.number {
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    background-color: darkgray;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+button.operation {
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    border-radius: 50%;
+    background-color: orange;
+    font-size: 22px;
+}
+
+#clear {
+    height: 80px;
+    width: 172px;
+    margin: 4px;
+    border-radius: 45%;
+}
+#equals {
+    height: 80px;
+    width: 80px;
+}
+
+#zero {
+    width: 172px;
+    border-radius: 45%;
+}
+
+#percent {
+    height: 80px;
+    width: 80px;
+}

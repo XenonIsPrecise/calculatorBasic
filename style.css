@@ -36,6 +36,10 @@ body {
     font-size: 22px;
 }
 
+.action:hover {
+    background-color: rgb(212, 199, 199);
+}
+
 button.number {
     width: 80px;
     height: 80px;
@@ -43,6 +47,10 @@ button.number {
     background-color: darkgray;
     border-radius: 50%;
     font-size: 22px;
+}
+
+button.number:hover {
+    background-color: gray;
 }
 
 button.operation {
@@ -54,15 +62,28 @@ button.operation {
     font-size: 22px;
 }
 
+button.operation:hover {
+    background-color: orangered;
+}
+
 #clear {
     height: 80px;
     width: 172px;
     margin: 4px;
     border-radius: 45%;
 }
+
+#clear:hover {
+    background-color: rgb(222, 124, 124);
+}   
+
 #equals {
     height: 80px;
     width: 80px;
+}
+
+#equals:hover {
+    background-color: rgb(111, 215, 111);
 }
 
 #zero {
@@ -74,3 +95,5 @@ button.operation {
     height: 80px;
     width: 80px;
 }
+
+/* Path: forked_repo/calculatorBasic/script.js */
